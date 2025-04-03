@@ -19,8 +19,12 @@ Voorbeeld -> <samp><mark>[door creaks]</mark></samp> of <samp><mark>[angrily]</m
 <sub><sup>Source: https://waywithwords.net/resource/accessible-captions-for-hearing-impaired/</sup></sub>
 
 **Visuele feedback**<br>
-Voorbeeld -> schreeuwende audio kan worden weergeven door grotere, ruigere tekst. De ambiance van een enge grimmige scene kan worden weergeven door kleinere koude blauwe tekst.<br>
+Voorbeeld -> schreeuwende audio kan worden weergeven door grotere, ruigere tekst. De ambiance van een enge grimmige scene kan worden weergeven door kleinere koude blauwe tekst. Fluitende vogels kunnen letterlijk gevisualiseerd worden etc etc.<br>
 <sub><sup>Source: https://dl.acm.org/doi/10.1145/3544548.3581130</sup></sub>
+
+**3D Sound direction indicator**<br>
+Voorbeeld -> Als iemand links praat dat dan de tekst ook links komt te staan. Als tekst vanuit de verte komt dat dan de tekst ook van verweg komt.<br>
+<sub><sup>Source: https://www.youtube.com/watch?v=hTImdpMJ4dE</sup></sub>
 
 **Haptische feedback**<br>
 Voorbeeld -> Chaotische / wilde momenten kunnen worden versterk door trillingen. Het ritme van een beat / muziekje kan worden aangetoond door trillingen (mogelijk op telefoon).<br>
