@@ -15,7 +15,7 @@
 Voordat ik begon te coderen, wilde ik eerst wat onderzoek doen naar wat de beste manieren zijn om audio te vertalen naar beeld. De natuurlijke, intuïtieve oplossing is om audio om te zetten in tekst.. en happetee, klaar. Maar tekst is vaak ontdaan van emotie en heeft niet helemaal de nuance die geluiden wel hebben. Daarom was het een goed startpunt voor mij om op zoek te gaan naar bronnen die precies dit probleem onderzoeken en me helpen uit te zoeken wat de beste alternatieve of aanvullende oplossingen voor dit probleem zijn.
 
 **Ondertiteling met Paralinguistic Information**<br>
-Voorbeeld –> <samp><mark>[door creaks]</mark></samp> of <samp><mark>[angrily]</mark></samp> / <samp><mark>[joyfully]</samp></mark><br>
+Voorbeeld -> <samp><mark>[door creaks]</mark></samp> of <samp><mark>[angrily]</mark></samp> / <samp><mark>[joyfully]</samp></mark><br>
 <sub><sup>Source: https://waywithwords.net/resource/accessible-captions-for-hearing-impaired/</sup></sub>
 
 **Visuele feedback**<br>
@@ -23,7 +23,7 @@ Voorbeeld -> schreeuwende audio kan worden weergeven door grotere, ruigere tekst
 <sub><sup>Source: https://dl.acm.org/doi/10.1145/3544548.3581130</sup></sub>
 
 **Haptische feedback**<br>
-Voorbeeld –> Chaotische / wilde momenten kunnen worden versterk door trillingen. Het ritme van een beat / muziekje kan worden aangetoond door trillingen (mogelijk op telefoon).<br>
+Voorbeeld -> Chaotische / wilde momenten kunnen worden versterk door trillingen. Het ritme van een beat / muziekje kan worden aangetoond door trillingen (mogelijk op telefoon).<br>
 <sub><sup>Source: https://arxiv.org/pdf/2012.13265</sup></sub>
 
 <br>
