@@ -1,0 +1,242 @@
+/* **********************************************
+Basic mechanics
+Hide all paragraphs by default
+Show them when they receive the class 'on'
+Hide them when they receive the class 'off'
+Feel free to adjust the defaults to your needs.
+********************************************** */
+#closed-captions {
+    position: absolute;
+    bottom: 7vw;
+    left: 50%;
+    translate: -50% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+#closed-captions p {
+    display: none;
+    white-space: nowrap;
+    width: max-content;
+}
+
+#closed-captions .on {
+    display: block;
+}
+
+#closed-captions .off {
+    display: none;
+}
+
+.voice1 {
+    position: relative;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 3px;
+}
+
+.voice1::after {
+    content: 'man 1:';
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    right: calc(100% + 10px);
+    top: 50%;
+    translate: 0 -50%;
+    background-color: rgba(51, 0, 255, 0.66);
+    padding: 3px;
+}
+
+.voice2 {
+    position: relative;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 3px;
+}
+
+.voice2::after {
+    content: 'man 2:';
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    right: calc(100% + 10px);
+    top: 50%;
+    translate: 0 -50%;
+    background-color: rgba(255, 0, 0, 0.66);
+    padding: 3px;
+}
+
+.voice3 {
+    position: relative;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 3px;
+}
+
+.voice4 {
+    position: relative;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 3px;
+}
+
+.voice4::after {
+    content: 'Child:';
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    right: calc(100% + 10px);
+    top: 50%;
+    translate: 0 -50%;
+    background-color: rgba(64, 255, 0, 0.66);
+    padding: 3px;
+}
+
+.voice5 {
+    position: relative;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 3px;
+}
+
+.voice5::after {
+    content: 'Man 3:';
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    right: calc(100% + 10px);
+    top: 50%;
+    translate: 0 -50%;
+    background-color: rgba(225, 0, 255, 0.66);
+    padding: 3px;
+}
+
+.voice6 {
+    position: relative;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 3px;
+}
+
+.voice6::after {
+    content: 'Man:';
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    right: calc(100% + 10px);
+    top: 50%;
+    translate: 0 -50%;
+    background-color: rgba(77, 80, 15, 0.66);
+    padding: 3px;
+}
+
+.voice7 {
+    position: relative;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 3px;
+}
+
+.voice7::after {
+    content: 'Woman:';
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    right: calc(100% + 10px);
+    top: 50%;
+    translate: 0 -50%;
+    background-color: rgba(16, 91, 86, 0.66);
+    padding: 3px;
+}
+
+/* yelling-1 */
+
+.yelling {
+    position: absolute;
+    font-style: normal;
+    font-size: 3vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* yelling-1 */
+#closed-captions p:nth-of-type(26) {
+    animation: yelling-1 2.2s ease;
+}
+
+/* yelling-2 */
+#closed-captions p:nth-of-type(27) {
+    animation: yelling-2 2.2s ease;
+}
+
+/* yelling-2 */
+#closed-captions p:nth-of-type(28) {
+    animation: yelling-3 1.5s ease;
+}
+
+
+/* **********************************************
+Basic layout.
+	Place the video in the center of the page.
+*********************************************  */
+
+#video-container {
+    position: relative;
+    width: 50vw;
+}
+
+.video-effects {
+    background-color: black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.video-effects.effect0 {
+    animation: pulse 19.2s ease, zoom 19.2s ease-in-out;
+    border-radius: 20px;
+}
+
+.video-effects.effect1 {
+    animation: chaos 2s ease-out;
+}
+
+.video-effects.effect2 {
+    animation: zoom2 2.5s ease-out;
+}
+
+iframe {
+    width: 100%;
+    height: 33vw;
+}
+
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#video-background.background0 {
+    animation: sky 16.5s linear;
+}
+
+#video-background.background1 {
+    animation: splash 2s linear;
+}
+
+#video-background.background2 {
+    animation: sky 13.5s linear;
+}
+
+#video-background.background3 {
+    animation: dark 20s linear;
+}
+
+#video-background.background4 {
+    animation: blood 4s linear;
+}
