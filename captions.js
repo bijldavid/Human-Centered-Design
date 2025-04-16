@@ -1,48 +1,56 @@
 
 captions[0] = ['0', '1.55'];
 captions[1] = ['4.5', '6'];
-captions[2] = ['5', '6'];
-captions[3] = ['6.2', '8.5'];
-captions[4] = ['8', '10.5'];
-captions[5] = ['10', '13'];
+captions[2] = ['6.2', '8'];
+captions[3] = ['8', '10'];
+captions[4] = ['10', '13'];
 
 // That's some bad hat harry
-captions[6] = ['12.5', '14.8'];
+captions[5] = ['13', '14.8'];
 
 // Harry puffs
-captions[7] = ['14', '16'];
+captions[6] = ['14', '16'];
 
 // Splash noises
-captions[8] = ['16', '20'];
+captions[7] = ['16', '20'];
+captions[8] = ['20', '23'];
 captions[9] = ['20', '23'];
-captions[10] = ['20', '23'];
 
 // Child singing
-captions[11] = ['23', '28'];
-captions[12] = ['23', '26'];
-captions[13] = ['26', '28'];
-captions[14] = ['28', '32'];
+captions[10] = ['23', '28'];
+captions[11] = ['23', '26'];
+captions[12] = ['26', '28'];
+captions[13] = ['28', '32'];
 
 // Guy yelling
-captions[15] = ['28', '30.5'];
-captions[16] = ['30', '32.5'];
-captions[17] = ['32.5', '36'];
-captions[18] = ['35.5', '37.5'];
+captions[14] = ['28', '30'];
+captions[15] = ['30', '32.5'];
+captions[16] = ['32.5', '36'];
+captions[17] = ['36', '37.5'];
 
 // Shark
-captions[19] = ['38', '50'];
-captions[20] = ['42', '50'];
-captions[21] = ['50', '55'];
+captions[18] = ['38', '50'];
+captions[19] = ['42', '50'];
+captions[20] = ['50', '55'];
 
-captions[22] = ['59.7', '62'];
-captions[23] = ['61', '62.5'];
+captions[21] = ['59.7', '62'];
+captions[22] = ['61', '62.5'];
 
-captions[24] = ['62', '66'];
+captions[23] = ['62', '66'];
 
 // child yelling
-captions[25] = ['63', '65'];
-captions[26] = ['64', '66'];
-captions[27] = ['66', '67.5'];
+captions[24] = ['63', '65'];
+captions[25] = ['64', '66'];
+captions[26] = ['66', '67.5'];
 
 // music intensifies
-captions[28] = ['67.5', '70'];
+captions[27] = ['67.5', '70'];
+
+// children yelling
+captions[28] = ['70', '74'];
+captions[29] = ['70.2', '72'];
+captions[30] = ['70.5', '72'];
+captions[31] = ['70', '72'];
+captions[32] = ['70.3', '72'];
+captions[33] = ['70.7', '72'];
+captions[34] = ['70.2', '72'];

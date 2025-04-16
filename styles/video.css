@@ -1,10 +1,19 @@
-/* **********************************************
-Basic mechanics
-Hide all paragraphs by default
-Show them when they receive the class 'on'
-Hide them when they receive the class 'off'
-Feel free to adjust the defaults to your needs.
-********************************************** */
+#video-container {
+    position: relative;
+    width: 50vw;
+}
+
+iframe {
+    width: 100%;
+    height: 33vw;
+}
+
+
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=- */
+/* TEXT */
+/* -=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=- */
+
 #closed-captions {
     position: absolute;
     bottom: 7vw;
@@ -73,6 +82,7 @@ Feel free to adjust the defaults to your needs.
     font-style: italic;
     background-color: rgba(0, 0, 0, 0.66);
     padding: 3px;
+    color: rgb(255, 255, 86)
 }
 
 .voice4 {
@@ -162,55 +172,70 @@ Feel free to adjust the defaults to your needs.
 }
 
 /* yelling-1 */
-#closed-captions p:nth-of-type(26) {
+#closed-captions p:nth-of-type(25) {
     animation: yelling-1 2.2s ease;
 }
 
 /* yelling-2 */
-#closed-captions p:nth-of-type(27) {
+#closed-captions p:nth-of-type(26) {
     animation: yelling-2 2.2s ease;
 }
 
 /* yelling-2 */
-#closed-captions p:nth-of-type(28) {
+#closed-captions p:nth-of-type(27) {
     animation: yelling-3 1.5s ease;
 }
 
-
-/* **********************************************
-Basic layout.
-	Place the video in the center of the page.
-*********************************************  */
-
-#video-container {
-    position: relative;
-    width: 50vw;
+/* yelling children */
+#closed-captions p:nth-of-type(30),
+#closed-captions p:nth-of-type(31),
+#closed-captions p:nth-of-type(32),
+#closed-captions p:nth-of-type(33),
+#closed-captions p:nth-of-type(34),
+#closed-captions p:nth-of-type(35) {
+    font-size: 2vw;
 }
 
-.video-effects {
-    background-color: black;
-    border-radius: 20px;
-    overflow: hidden;
+#closed-captions p:nth-of-type(30) {
+    animation: yelling-4 2s ease;
+    left: -10vw;
+    bottom: 6vw;
 }
 
-.video-effects.effect0 {
-    animation: pulse 19.2s ease, zoom 19.2s ease-in-out;
-    border-radius: 20px;
+#closed-captions p:nth-of-type(31) {
+    animation: yelling-5 2s ease;
+    left: -8vw;
+    bottom: 7vw;
 }
 
-.video-effects.effect1 {
-    animation: chaos 2s ease-out;
+#closed-captions p:nth-of-type(32) {
+    animation: yelling-6 2s ease;
+    left: -5vw;
+    bottom: 10vw;
 }
 
-.video-effects.effect2 {
-    animation: zoom2 2.5s ease-out;
+#closed-captions p:nth-of-type(33) {
+    animation: yelling-4 2s ease;
+    left: -2vw;
+    bottom: 5vw;
 }
 
-iframe {
-    width: 100%;
-    height: 33vw;
+#closed-captions p:nth-of-type(34) {
+    animation: yelling-5 2s ease;
+    right: -23vw;
+    bottom: 8vw;
 }
 
+#closed-captions p:nth-of-type(35) {
+    animation: yelling-6 2s ease;
+    right: -20vw;
+    bottom: 5.5vw;
+}
+
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=- */
+/* BACKGROUND */
+/* -=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=- */
 
 #video-background {
     position: fixed;
@@ -239,4 +264,30 @@ iframe {
 
 #video-background.background4 {
     animation: blood 4s linear;
+}
+
+
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=- */
+/* EFFECTS */
+/* -=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=- */
+
+
+.video-effects {
+    background-color: black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.video-effects.effect0 {
+    animation: pulse 19.2s ease, zoom 19.2s ease-in-out;
+    border-radius: 20px;
+}
+
+.video-effects.effect1 {
+    animation: chaos 2s ease-out;
+}
+
+.video-effects.effect2 {
+    animation: zoom2 2.5s ease-out;
 }

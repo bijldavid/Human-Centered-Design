@@ -51,6 +51,102 @@
     }
 }
 
+@keyframes yelling-4 {
+    0% {
+        translate: 0 0;
+        rotate: 0;
+        opacity: 1;
+        scale: 1;
+    }
+
+    100% {
+        translate: 0 0;
+        rotate: 20deg;
+        opacity: 0;
+        scale: .5;
+    }
+}
+
+@keyframes yelling-5 {
+    0% {
+        translate: 0 0;
+        rotate: 0;
+        opacity: 1;
+        scale: 1;
+    }
+
+    100% {
+        translate: 0 0;
+        rotate: 10deg;
+        opacity: 0;
+        scale: .5;
+    }
+}
+
+@keyframes yelling-6 {
+    0% {
+        translate: 0 0;
+        rotate: 0;
+        opacity: 1;
+        scale: 1;
+    }
+
+    100% {
+        translate: 0 0;
+        rotate: -10deg;
+        opacity: 0;
+        scale: .5;
+    }
+}
+
+@keyframes yelling-7 {
+    0% {
+        translate: -10vw 0;
+        rotate: 0;
+        opacity: 1;
+        scale: 1;
+    }
+
+    100% {
+        translate: 0 0;
+        rotate: 20deg;
+        opacity: 0;
+        scale: .5;
+    }
+}
+
+@keyframes yelling-8 {
+    0% {
+        translate: 0 0;
+        rotate: 0;
+        opacity: 1;
+        scale: 1;
+    }
+
+    100% {
+        translate: 0 0;
+        rotate: 10deg;
+        opacity: 0;
+        scale: .5;
+    }
+}
+
+@keyframes yelling-9 {
+    0% {
+        translate: 0 0;
+        rotate: 0;
+        opacity: 1;
+        scale: 1;
+    }
+
+    100% {
+        translate: 0 0;
+        rotate: -10deg;
+        opacity: 0;
+        scale: .5;
+    }
+}
+
 /* -=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=- */
 /* EFFECTS */
 /* -=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=- */
