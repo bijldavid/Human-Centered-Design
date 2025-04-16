@@ -51,6 +51,7 @@
     }
 }
 
+/* -=-=-=-=-=-=-=-=-=- CHILDREN -=-=-=-=-=-=-=-=-=- */
 @keyframes yelling-4 {
     0% {
         translate: 0 0;
@@ -60,7 +61,7 @@
     }
 
     100% {
-        translate: 0 0;
+        translate: -5vw -10vw;
         rotate: 20deg;
         opacity: 0;
         scale: .5;
@@ -76,7 +77,7 @@
     }
 
     100% {
-        translate: 0 0;
+        translate: 5vw -10vw;
         rotate: 10deg;
         opacity: 0;
         scale: .5;
@@ -92,7 +93,7 @@
     }
 
     100% {
-        translate: 0 0;
+        translate: -2vw -14vw;
         rotate: -10deg;
         opacity: 0;
         scale: .5;
@@ -101,14 +102,14 @@
 
 @keyframes yelling-7 {
     0% {
-        translate: -10vw 0;
+        translate: 0 0;
         rotate: 0;
         opacity: 1;
         scale: 1;
     }
 
     100% {
-        translate: 0 0;
+        translate: 3vw -17vw;
         rotate: 20deg;
         opacity: 0;
         scale: .5;
@@ -124,7 +125,7 @@
     }
 
     100% {
-        translate: 0 0;
+        translate: -6vw -12vw;
         rotate: 10deg;
         opacity: 0;
         scale: .5;
@@ -140,7 +141,7 @@
     }
 
     100% {
-        translate: 0 0;
+        translate: -2vw -4vw;
         rotate: -10deg;
         opacity: 0;
         scale: .5;
