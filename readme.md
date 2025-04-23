@@ -7,42 +7,44 @@
 > ## Week 1
 > **<sub><sup>31 mar t/m 4 apr</sup></sub>**
 
-**Opdracht omschrijving:** <br>Darice wil graag de inhoud van podcasts kunnen volgen, inclusief alle hoorbare details zoals sfeergeluiden, geluidseffecten, en nuances zoals intonatie en andere eigenschappen van de stemmen. Is de persoon bijvoorbeeld boos? Verdrietig? Vrolijk?
+**Opdracht omschrijving:** <br>
+Darice wil graag de inhoud van podcasts kunnen volgen, inclusief alle hoorbare details zoals sfeergeluiden, geluidseffecten en nuances zoals intonatie en andere stemkenmerken. Klinkt iemand bijvoorbeeld boos? Verdrietig? Vrolijk?
+
 
 <br>
 <br>
 
-Voordat ik begon te coderen, wilde ik eerst wat onderzoek doen naar wat de beste manieren zijn om audio te vertalen naar beeld. De natuurlijke, intuïtieve oplossing is om audio om te zetten in tekst.. en happetee, klaar. Maar tekst is vaak ontdaan van emotie en heeft niet helemaal de nuance die geluiden wel hebben. Daarom was het een goed startpunt voor mij om op zoek te gaan naar bronnen die precies dit probleem onderzoeken en me helpen uit te zoeken wat de beste alternatieve of aanvullende oplossingen voor dit probleem zijn.
+Voordat ik begon met coderen, wilde ik eerst onderzoek doen naar de beste manieren om audio te vertalen naar beeld. De meest voor de hand liggende oplossing is om audio om te zetten in tekst… en klaar. Maar tekst mist vaak de emotie en nuance die geluid juist overbrengt. Daarom leek het me een goed idee om op zoek te gaan naar bronnen die dit specifieke probleem onderzoeken en me konden helpen ontdekken welke alternatieve of aanvullende oplossingen mogelijk zijn.
 
 **Ondertiteling met Paralinguistic Information**<br>
-Voorbeeld -> <samp><mark>[door creaks]</mark></samp> of <samp><mark>[angrily]</mark></samp> / <samp><mark>[joyfully]</samp></mark><br>
-<sub><sup>Source: https://waywithwords.net/resource/accessible-captions-for-hearing-impaired/</sup></sub>
+Voorbeeld -> <samp><mark>[door creaks]</mark></samp> of <samp><mark>[angrily]</mark></samp> / <samp><mark>[joyfully]</mark></samp><br> 
+<sub><sup>Bron: https://waywithwords.net/resource/accessible-captions-for-hearing-impaired/</sup></sub>
 
 **Visuele feedback**<br>
-Voorbeeld -> schreeuwende audio kan worden weergeven door grotere, ruigere tekst. De ambiance van een enge grimmige scene kan worden weergeven door kleinere koude blauwe tekst. Fluitende vogels kunnen letterlijk gevisualiseerd worden etc etc.<br>
-<sub><sup>Source: https://dl.acm.org/doi/10.1145/3544548.3581130</sup></sub>
+Voorbeeld -> Schreeuwende audio kan worden weergegeven met grotere, ruigere tekst. De sfeer van een enge of grimmige scène kan visueel ondersteund worden met kleinere, koude blauwe tekst. Fluitende vogels kunnen letterlijk gevisualiseerd worden, enzovoorts.<br> 
+<sub><sup>Bron: https://dl.acm.org/doi/10.1145/3544548.3581130</sup></sub>
 
 **3D Sound direction indicator**<br>
-Voorbeeld -> Als iemand links praat dat dan de tekst ook links komt te staan. Als tekst vanuit de verte komt dat dan de tekst ook van verweg komt.<br>
-<sub><sup>Source: https://www.youtube.com/watch?v=hTImdpMJ4dE</sup></sub>
+Voorbeeld -> Als iemand links praat, verschijnt de tekst ook aan de linkerkant. Komt het geluid van ver, dan wordt de tekst op afstand weergegeven.<br> 
+<sub><sup>Bron: https://www.youtube.com/watch?v=hTImdpMJ4dE</sup></sub>
 
 **Haptische feedback**<br>
-Voorbeeld -> Chaotische / wilde momenten kunnen worden versterk door trillingen. Het ritme van een beat / muziekje kan worden aangetoond door trillingen (mogelijk op telefoon).<br>
-<sub><sup>Source: https://arxiv.org/pdf/2012.13265</sup></sub>
+Voorbeeld -> Chaotische of wilde momenten kunnen worden versterkt met trillingen. Het ritme van een beat of muziekje kan voelbaar gemaakt worden via trillingen (bijvoorbeeld op een telefoon).<br> 
+<sub><sup>Bron: https://arxiv.org/pdf/2012.13265</sup></sub>
 
 <br>
 <br>
 
 **Probleem:**
-Hoe kan ik een feature bouwen die beeld verwerkt en vertaald naar de bovengenoemde oplossingen? AI?
+Hoe kan ik een feature bouwen die geluid omzet in bovenstaande visuele of voelbare feedback? Is AI hierbij nodig?
 
 <br>
 <br>
 
 **Dingen die NIET nodig zijn**<br>
-- Niet optimised voor screenreader?
-- Keyboard navigation is geen prioriteit?
-- Geen audio feedback voor alerts of iets dergelijks?
+- Optimalisatie voor screenreaders is geen prioriteit
+- Keyboardnavigatie is niet nodig
+- Geen audiofeedback voor meldingen of alerts
 
 ---
 
@@ -53,17 +55,19 @@ Hoe kan ik een feature bouwen die beeld verwerkt en vertaald naar de bovengenoem
 > ## Week 2
 > **<sub><sup>7 t/m 11 apr</sup></sub>**
 
-Omdat ik week 1 het test moment had gemist had ik best wel generieke informatie gevonden. Na het feedback gesprek had ik van mede studenten geleerd over de specifieke behoefte die Darice had. Ook vertelde Vasilis dat het het interessantst is als je een fragment kiest waarbij audio een belangrijke rol speelt, iets wat je als doofe gebruiker dus niet echt mee krijgt. Met deze kennis ben ik opzoek gegaan naar een film of podcast die deze rol echt goed vult. 
+Omdat ik in week 1 het testmoment had gemist, had ik vooral algemene informatie verzameld. Tijdens het feedbackgesprek kreeg ik van medestudenten meer inzicht in de specifieke behoefte van Darice. Ook gaf Vasilis aan dat het interessanter is om een fragment te kiezen waarin audio een essentiële rol speelt — iets wat voor een dove gebruiker juist moeilijk is om te ervaren.
 
-Uiteindelijk ben ik op Jaws uitgekomen. Specifiek, de eerste scene waar jaws boven water komt en aanvalt op het strand. Vervolgens heb ik een aantal toevoegingen bedacht die ik op de film kon uitoefenen, bijvoorbeeld een pulseerende border wanneer de classic jaws theme begint. Of het schudden van het scherm wanneer er chaos op beeld is. Zo had ik nog een aantal dingen bedacht.
+Met die kennis ben ik op zoek gegaan naar een film of podcast waar geluid echt impact heeft. Uiteindelijk koos ik de film Jaws, specifiek de eerste scène waarin de haai boven water komt en aanvalt op het strand.
 
-Al deze effecten had ik vervolgens in mijn eerste prototype op een aantal checkboxes gezet. Ik kon dan handmatig de effecten aan en uitzetten tijdens dat de video afspeelde. Als feedback op de effecten vertelde Darice het volgende,
+Ik bedacht een aantal effecten die ik aan die scène kon toevoegen, zoals een pulserende rand zodra het iconische Jaws-thema begint, of een schuddend scherm tijdens chaotische momenten. Al deze effecten zette ik handmatig op toggleable checkboxes, zodat ik tijdens het afspelen van de video kon testen.
+
+Feedback van Darice:
 1. Pulse -> was goed
 2. Choas shake -> iets te hevig en duurde te lang
 3. Zoom -> was goed
 4. Emoji mode -> was onnodig, ze kan zelf emoties herkennen en hoeft geen emojis in beeld te zien om de emotie te snappen
 
-Mijn plan voor na deze test was om nog extra features te bedenken, maar vooral om het script van Vasilis te implementeren zodat de effectjes ook echt gebuiren op de juiste tijdstippen en niet handmatig moeten worden aangezet.
+Na deze test was mijn plan om nog meer features te bedenken, maar vooral om het script van Vasilis te implementeren zodat de effecten automatisch op het juiste moment zouden plaatsvinden.
 
 ---
 
@@ -74,7 +78,50 @@ Mijn plan voor na deze test was om nog extra features te bedenken, maar vooral o
 > ## Week 3
 > **<sub><sup>14 t/m 17 apr</sup></sub>**
 
-Deze week ben ik bezig geweest met het werkend maken van het script van Vasilis. Het was even puzzelen om het te begrijpen en door te hebben wat ik wel en niet nodig had. Ook was er wat oude styling die ik niet nodig had. Uiteindelijk ben ik eruit gekomen en kon ik gaan beginnen aan captions toevoegen, dit was een langdraadig proces en best wel pielen. Naast de captions heb ik ook een mapping toegevoegd voor tijdsmomenten waar een effect op de achtergrond of videoframe 
+Deze week werkte ik aan het implementeren van het script van Vasilis. Het kostte wat tijd om alles te begrijpen en uit te zoeken wat ik wel en niet nodig had. Ook heb ik wat oude styling verwijderd die niet meer relevant was. Uiteindelijk lukte het en kon ik beginnen met het toevoegen van captions. Dit bleek een tijdrovend en precies klusje te zijn.
+
+Naast de captions voegde ik ook een mapping toe voor momenten waarop achtergrond- of frame-effecten geanimeerd worden. Zo konden de eerder bedachte effecten op het juiste moment getriggerd worden.
+
+
+``` js
+
+backgrounds = [
+    [0.01, 17],
+    [20.5, 23],
+    [24, 38],
+    [38, 58],
+    [61, 65]
+];  
+
+```
+
+``` js
+
+indicators = [
+    [28.5, 29]
+];
+
+```
+
+``` js
+
+effects = [
+    [39, 58.5],
+    [62, 64],
+    [67.5, 70]
+];  
+
+```
+
+Na het toepassen van deze effecten en captions heb ik opnieuw getest met Darice. Ze was aangenaam verrast. De effecten waren passend en niet storend. Het iconische Jaws-fragment werd versterkt door de rode puls en zoom, en de spanning werd goed overgebracht. De extra zoom bovenop de dollyzoom in de scène werd ook gewaardeerd.
+
+De enige feedback was dat ik soms twee ondertitelregels tegelijk liet zien — ik schoof de oude tekst omhoog en voegde nieuwe onderaan toe. Dit bleek verwarrend. Na wat onderzoek ontdekte ik dat het gebruikelijker is om slechts één ondertitel tegelijk te tonen, tenzij het echt past bij de scène. Sindsdien heb ik de timing aangepast om verwarring te voorkomen.
+
+<br>
+
+<img src="./images/captions-1.png" height="289" width="510">
+<img src="./images/captions-2.png" height="289" width="510"><br>
+<sub><sup>Voorbeeld ondertitel probleem ^^^</sup></sub>
 
 ---
 
@@ -85,6 +132,26 @@ Deze week ben ik bezig geweest met het werkend maken van het script van Vasilis.
 > ## Week 4
 > **<sub><sup>22 t/m 25 apr</sup></sub>**
 
+In week 4 heb ik me gericht op het toevoegen van extra details. Aangezien Darice tevreden was met de aanpak, wilde ik nog meer context aan de scène geven. Voorbeelden hiervan zijn grote, overdreven teksten die verschijnen wanneer het kind wordt aangevallen, of schreeuw-indicatorlijntjes als iemand zonder gezicht in beeld spreekt.<br>
+
+<img src="./images/indicator-1.png" height="192" width="340">
+<img src="./images/indicator-2.png" height="192" width="340">
+<img src="./images/indicator-3.png" height="192" width="340">
+
+1. Study situation:
+   - Ik ontwerp voor een dove gebruiker. Dove gebruikers zijn sterk afhankelijk van hun zicht bij het consumeren van media. Alleen ondertiteling is vaak niet voldoende om de volledige ervaring over te brengen. Daarom gebruik ik visuele en fysieke effecten om geluid voelbaar of zichtbaar te maken.
+   - Ik ontwerp specifiek voor Darice. Zij is niet doof geboren en weet dus hoe geluid klinkt. Een bekende film als Jaws is perfect, want ze kent het iconische deuntje. Mijn effecten hoeven dus niet het hele muziekstuk te beschrijven, maar moeten het ritme en gevoel overbrengen.
+<br>
+2. Ignore conventions:
+   - Normaal vertrouwen we volledig op ondertiteling, maar sommige dingen kunnen ook anders dan in tekst worden weergegeven.
+   - Het is gebruikelijk om een videospeler schermvullend te maken. Door hem iets kleiner te houden, ontstaat ruimte rondom de video voor extra effecten.
+<br>
+3. Prioritise identity:
+   - Darice heeft persoonlijke wensen. Ze ziet bijvoorbeeld minder goed met één oog, dus kleine details in een hoek vallen haar minder snel op. Daarom blijft de ondertiteling gecentreerd in beeld.
+<br>
+4. Add nonsense:
+   - Het toevoegen van “nonsense” is soms gewoon leuk en neigt naar overbodige features. Een voorbeeld: de grote tekst “AAAAH!” van de kinderen. De ondertiteling [Children frantically yelling] is technisch voldoende, maar de visuele toevoeging maakt de chaos voelbaarder.
+
 ---
 
 <br>
@@ -94,9 +161,10 @@ Deze week ben ik bezig geweest met het werkend maken van het script van Vasilis.
 > ## Bronnen
 
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>https://waywithwords.net/resource/accessible-captions-for-hearing-impaired/</li>
+    <li>https://dl.acm.org/doi/10.1145/3544548.3581130</li>
+    <li>https://www.youtube.com/watch?v=hTImdpMJ4dE</li>
+    <li>https://arxiv.org/pdf/2012.13265</li>
 </ul>
 
 ---
