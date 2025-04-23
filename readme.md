@@ -55,7 +55,7 @@ Hoe kan ik een feature bouwen die geluid omzet in bovenstaande visuele of voelba
 > ## Week 2
 > **<sub><sup>7 t/m 11 apr</sup></sub>**
 
-Omdat ik in week 1 het testmoment had gemist, had ik vooral algemene informatie verzameld. Tijdens het feedbackgesprek kreeg ik van medestudenten meer inzicht in de specifieke behoefte van Darice. Ook gaf Vasilis aan dat het interessanter is om een fragment te kiezen waarin audio een essentiële rol speelt — iets wat voor een dove gebruiker juist moeilijk is om te ervaren.
+Omdat ik in week 1 het testmoment had gemist, had ik vooral algemene informatie verzameld. Tijdens het feedbackgesprek kreeg ik van medestudenten meer inzicht in de specifieke behoefte van Darice. Ook gaf Vasilis aan dat het interessanter is om een fragment te kiezen waarin audio een essentiële rol speelt, iets wat voor een dove gebruiker juist moeilijk is om te ervaren.
 
 Met die kennis ben ik op zoek gegaan naar een film of podcast waar geluid echt impact heeft. Uiteindelijk koos ik de film Jaws, specifiek de eerste scène waarin de haai boven water komt en aanvalt op het strand.
 
@@ -67,7 +67,7 @@ Feedback van Darice:
 3. Zoom -> was goed
 4. Emoji mode -> was onnodig, ze kan zelf emoties herkennen en hoeft geen emojis in beeld te zien om de emotie te snappen
 
-Na deze test was mijn plan om nog meer features te bedenken, maar vooral om het script van Vasilis te implementeren zodat de effecten automatisch op het juiste moment zouden plaatsvinden.
+Na deze test was mijn plan om nog meer features te bedenken, maar eerst proberen om het script van Vasilis te implementeren zodat de effecten automatisch op het juiste moment zouden plaatsvinden.
 
 ---
 
@@ -115,7 +115,7 @@ effects = [
 
 Na het toepassen van deze effecten en captions heb ik opnieuw getest met Darice. Ze was aangenaam verrast. De effecten waren passend en niet storend. Het iconische Jaws-fragment werd versterkt door de rode puls en zoom, en de spanning werd goed overgebracht. De extra zoom bovenop de dollyzoom in de scène werd ook gewaardeerd.
 
-De enige feedback was dat ik soms twee ondertitelregels tegelijk liet zien — ik schoof de oude tekst omhoog en voegde nieuwe onderaan toe. Dit bleek verwarrend. Na wat onderzoek ontdekte ik dat het gebruikelijker is om slechts één ondertitel tegelijk te tonen, tenzij het echt past bij de scène. Sindsdien heb ik de timing aangepast om verwarring te voorkomen.
+De enige feedback was dat ik soms twee ondertitelregels tegelijk liet zien, ik schoof de oude tekst omhoog en voegde nieuwe onderaan toe. Dit bleek verwarrend te zijn. Na wat onderzoek ontdekte ik dat het gebruikelijker is om slechts één ondertitel tegelijk te tonen, tenzij het echt past bij de scène. Sindsdien heb ik de timing aangepast om verwarring te voorkomen.
 
 <br>
 
