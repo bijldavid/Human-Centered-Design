@@ -56,6 +56,13 @@ function updateTimerDisplay() {
         i++;
     }
 
+    // Process indicators
+    var i = 0;
+    while (i < indicators.length) {
+        iTimes(i, indicators[i], t);
+        i++;
+    }
+
     // Process background changes
     var i = 0;
     while (i < backgrounds.length) {
@@ -103,6 +110,25 @@ function eTimes(num, effectTiming, curT) {
     // Remove class when current time is outside the range
     if ((curT < startTime || curT > endTime) && b.classList.contains(effectClass)) {
         b.classList.remove(effectClass);
+    }
+}
+
+function iTimes(num, indicatorTiming, curT) {
+    var indicatorClass = 'indicator' + num;
+    var b = document.querySelector('.indicators');
+
+    // Extract start and end times
+    var startTime = indicatorTiming[0];
+    var endTime = indicatorTiming[1];
+
+    // Add class when current time is between start and end times
+    if (curT >= startTime && curT <= endTime && !b.classList.contains(indicatorClass)) {
+        b.classList.add(indicatorClass);
+    }
+
+    // Remove class when current time is outside the range
+    if ((curT < startTime || curT > endTime) && b.classList.contains(indicatorClass)) {
+        b.classList.remove(indicatorClass);
     }
 }
 
